@@ -1,0 +1,11 @@
+package com.davidrivas.todolist.dto;
+
+import lombok.Data;
+
+@Data
+public class LoginUserDto {
+
+    private String email;
+
+    private String password;
+}
